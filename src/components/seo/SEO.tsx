@@ -9,6 +9,9 @@ interface SEOProps {
   twitterSite?: string;
 }
 
+const BRAND_NAME = "Taverna de la Sal";
+const SITE_DEFAULT_URL = "https://tavernadelasal.com";
+
 const SUPPORTED = ["es", "en", "fr", "ca"] as const;
 type SupportedLang = (typeof SUPPORTED)[number];
 
@@ -31,13 +34,15 @@ function stripLangFromPath(pathname: string) {
 
 function getBaseUrl() {
   const envUrl = import.meta.env.VITE_SITE_URL as string | undefined;
-  const origin = window.location.origin;
 
   if (envUrl && /^https?:\/\//i.test(envUrl)) {
     return envUrl.replace(/\/$/, "");
   }
 
-  return origin.replace(/\/$/, "");
+  const origin = window.location.origin.replace(/\/$/, "");
+  if (origin.includes("tavernadelasal.com")) return origin;
+
+  return SITE_DEFAULT_URL;
 }
 
 function ogLocaleFromLang(lang: SupportedLang) {
@@ -104,10 +109,15 @@ function clearHreflangLinks() {
 
 function normalizeImageUrl(url?: string) {
   if (!url) return undefined;
+
   if (/^https?:\/\//i.test(url)) return url;
+
+  // evita rutas de /src en producción
   if (url.includes("/src/")) return undefined;
+
   if (url.startsWith("/assets/")) return url;
   if (url.startsWith("/images/")) return url;
+
   return url.startsWith("/") ? url : `/${url}`;
 }
 
@@ -119,6 +129,7 @@ function toAbsoluteUrl(baseUrl: string, url?: string) {
 }
 
 function buildUrl(baseUrl: string, lang: SupportedLang, pathWithoutLang: string) {
+  // Rutas por idioma: /es, /en, /fr, /ca (home = /es)
   if (pathWithoutLang === "/") return `${baseUrl}/${lang}`;
   return `${baseUrl}/${lang}${pathWithoutLang}`;
 }
@@ -148,12 +159,14 @@ export default function SEO({
     setMetaTag("description", description);
 
     // OPEN GRAPH
+    setMetaTag("og:site_name", BRAND_NAME);
     setMetaTag("og:title", title);
     setMetaTag("og:description", description);
     setMetaTag("og:type", "website");
     setMetaTag("og:url", currentUrl);
     setMetaTag("og:locale", ogLocaleFromLang(lang));
 
+    // og locale alternates
     document.querySelectorAll("meta[property='og:locale:alternate']").forEach((el) => el.remove());
     SUPPORTED.filter((l) => l !== lang).forEach((l) => {
       const meta = document.createElement("meta");
@@ -199,30 +212,49 @@ export default function SEO({
     xDefault.setAttribute("data-seo-hreflang", "1");
     document.head.appendChild(xDefault);
 
-    // SCHEMA
-    const schema = {
-      "@context": "https://schema.org",
+    // SCHEMA (WebSite + Hotel + WebPage) — sin any
+    const websiteUrl = buildUrl(baseUrl, lang, "/");
+
+    type SchemaNode = Record<string, unknown>;
+    type SchemaJsonLd = {
+      "@context": "https://schema.org";
+      "@graph": SchemaNode[];
+    };
+
+    const schemaGraph: SchemaNode[] = [];
+
+    schemaGraph.push({
+      "@type": "WebSite",
+      "@id": `${websiteUrl}#website`,
+      url: websiteUrl,
+      name: BRAND_NAME,
+      inLanguage: hreflangFromLang(lang),
+    });
+
+    schemaGraph.push({
+      "@type": "Hotel",
+      "@id": `${websiteUrl}#hotel`,
+      name: BRAND_NAME,
+      url: websiteUrl,
+    });
+
+    schemaGraph.push({
       "@type": "WebPage",
+      "@id": `${currentUrl}#webpage`,
+      url: currentUrl,
       name: title,
       description,
-      url: currentUrl,
       inLanguage: hreflangFromLang(lang),
+      isPartOf: { "@id": `${websiteUrl}#website` },
+      about: { "@id": `${websiteUrl}#hotel` },
       primaryImageOfPage: absoluteImage
-        ? {
-            "@type": "ImageObject",
-            url: absoluteImage,
-          }
+        ? { "@type": "ImageObject", url: absoluteImage }
         : undefined,
-      isPartOf: {
-        "@type": "WebSite",
-        name: "Hotel Taverna de la Sal",
-        url: buildUrl(baseUrl, lang, "/"),
-      },
-      about: {
-        "@type": "Hotel",
-        name: "Hotel Taverna de la Sal",
-        url: buildUrl(baseUrl, lang, "/"),
-      },
+    });
+
+    const schema: SchemaJsonLd = {
+      "@context": "https://schema.org",
+      "@graph": schemaGraph,
     };
 
     const id = "seo-schema";
