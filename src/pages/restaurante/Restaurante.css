@@ -1,0 +1,150 @@
+/* =========================================================
+   RESTAURANTE — HERO
+========================================================= */
+
+@media (max-width: 900px) {
+  .restHero {
+    background-position: 50% 25%;
+  }
+}
+
+/* =========================================================
+   BUTTON
+========================================================= */
+
+.btn-re {
+  background: #a55a3b;
+}
+
+/* =========================================================
+   REST BANNER
+========================================================= */
+
+.rest-banner {
+  position: relative;
+  padding: 6rem 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  overflow: hidden;
+  background-color: #111;
+}
+
+/* =========================================================
+   BANNER OVERLAY
+========================================================= */
+
+.rest-banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(14, 14, 14, 0.55);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* =========================================================
+   BANNER CONTENT
+========================================================= */
+
+.rest-banner-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* =========================================================
+   BANNER TEXT
+========================================================= */
+
+.rest-banner-eyebrow {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+.rest-banner-title {
+  color: #fff;
+  font-size: clamp(2rem, 3vw, 3rem);
+  line-height: 1.15;
+}
+
+.rest-banner-lead {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  max-width: 680px;
+}
+
+.rest-banner-text {
+  color: #fff;
+  max-width: 680px;
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+.rest-banner-title,
+.rest-banner-lead,
+.rest-banner-text {
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.35);
+}
+
+/* =========================================================
+   VENTAJAS
+========================================================= */
+
+.rest-container_ventajas {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+
+.rest-advantages-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+/* =========================================================
+   MENU + HOURS
+========================================================= */
+
+.rest-menu-header,
+.rest-horari,
+.rest-container_menu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.rest-hours {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.rest-hours-title {
+  margin-bottom: 20px;
+}
+
+/* =========================================================
+   LAYOUT TWEAKS
+========================================================= */
+
+.rest-container {
+  gap: 30px;
+}
+
+.rest-text_bye {
+  display: none;
+}

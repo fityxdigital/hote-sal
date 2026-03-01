@@ -1,0 +1,108 @@
+/* =========================
+   SECTIONS (CENTRADO REAL)
+========================= */
+
+.section--white,
+.section--beige {
+  padding: 50px 0;
+}
+
+.section--white {
+  background: var(--color-bg-main);
+}
+
+.section--beige {
+  background-color: var(--color-bg-beige);
+}
+
+/* CONTENEDOR CENTRAL */
+.g-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centra el bloque entero */
+  gap: 64px;
+}
+
+/* MEDIA */
+.g-media {
+  width: 100%;
+  max-width: 540px; /* 👈 control real del ancho */
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.g-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* TEXTO */
+.g-intro {
+  width: 100%;
+  max-width: 520px; /* equilibrio visual */
+}
+
+/* LINK */
+.link-container {
+  padding: 20px 0;
+}
+
+.g-link {
+  text-decoration: underline;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1024px) {
+  .g-container {
+    gap: 40px;
+  }
+
+  .g-media {
+    max-width: 480px;
+  }
+}
+
+@media (max-width: 768px) {
+  .g-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 28px;
+  }
+
+  .g-intro {
+    max-width: 600px;
+  }
+
+  .g-media {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 520px) {
+  .section--white,
+  .section--beige {
+    padding: 32px 0;
+  }
+
+  .g-container {
+    padding: 0 18px;
+    gap: 22px;
+  }
+
+  .g-media {
+    border-radius: 16px;
+  }
+
+  .link-container {
+    padding: 14px 0;
+  }
+}

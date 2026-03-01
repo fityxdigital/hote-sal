@@ -1,0 +1,165 @@
+/* =========================================================
+   HISTORY PAGE
+========================================================= */
+
+.page {
+  overflow-x: hidden;
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.page .hero {
+  background-image: var(--hero-bg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 900px) {
+  .page .hero {
+    background-image: var(--hero-bg-mobile);
+    background-position: center;
+  }
+}
+
+/* =========================================================
+   BLOCK 1 — GRID
+========================================================= */
+
+.history-container-par {
+  display: grid;
+  grid-template-columns: minmax(240px, 40%) 1fr;
+  gap: 30px;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.history-media-img-par {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+  margin-top: 80px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+
+.history-par {
+  font-size: 0.95rem;
+  color: var(--color-text);
+}
+
+.history-par_eyebrow {
+  color: var(--color-dark);
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.history-text {
+  margin: 0 0 25px;
+}
+
+/* =========================================================
+   QUOTE
+========================================================= */
+
+.history-quote {
+  margin-top: 18px;
+  padding-left: 16px;
+  border-left: 1px solid rgba(15, 26, 43, 0.35);
+}
+
+.history-quote p {
+  margin: 0;
+  font-style: italic;
+  color: var(--color-dark);
+  line-height: 1.7;
+}
+
+/* =========================================================
+   PHILOSOPHY + CTA
+========================================================= */
+
+.history-filosofia,
+.history-cta {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.history-cta-text {
+  margin-bottom: 40px;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1024px) {
+  .history-container-par {
+    padding: 0 24px;
+    gap: 24px;
+  }
+
+  .history-media-img-par {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 820px) {
+  .history-container-par {
+    grid-template-columns: 1fr 1fr;
+    max-width: 720px;
+    gap: 20px;
+  }
+
+  .history-media-img-par {
+    margin-top: 0;
+    aspect-ratio: 4 / 5;
+  }
+
+  .history-par {
+    font-size: 0.93rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .history-container-par {
+    grid-template-columns: 1fr;
+    max-width: 520px;
+    gap: 18px;
+    text-align: left;
+  }
+
+  .history-media-img-par {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+  }
+
+  .history-filosofia,
+  .history-cta {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .history-cta-text {
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 420px) {
+  .history-container-par {
+    padding: 0 16px;
+  }
+
+  .history-par {
+    font-size: 0.9rem;
+  }
+
+  .history-quote {
+    padding-left: 12px;
+  }
+}

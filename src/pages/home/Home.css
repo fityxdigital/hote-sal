@@ -1,0 +1,297 @@
+/* =========================================================
+   HOME — HERO
+========================================================= */
+
+@media (max-width: 900px) {
+  .homeHero {
+    background-position: 50% 25%;
+  }
+}
+
+/* =========================================================
+   GRID CARDS
+========================================================= */
+
+.home-grid3 {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+/* =========================================================
+   CENTER BLOCK
+========================================================= */
+
+.home-center {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* =========================================================
+   ATMOSPHERE GRID
+========================================================= */
+
+.home-atmosphere-grid {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
+.home-atmosphere-item {
+  overflow: hidden;
+  border-radius: 22px;
+  height: 175px;
+  box-shadow: var(--shadow-md);
+}
+
+.home-atmosphere-item-large {
+  height: 350px;
+}
+
+.home-atmosphere-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* =========================================================
+   ROOMS
+========================================================= */
+
+.home-list {
+  padding-left: 18px;
+  list-style: disc;
+  margin-top: 10px;
+  margin-bottom: 1rem;
+}
+
+.home-actions {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* =========================================================
+   SERVICES
+========================================================= */
+
+.home-services-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.home-container__services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.home-eyebrow-services {
+  margin-top: 20px;
+}
+
+.home-services {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 48px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.home-service {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 180px;
+}
+
+.home-service-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(191, 151, 74, 0.7);
+  color: rgba(191, 151, 74, 1);
+  margin-bottom: 18px;
+  font-size: 18px;
+}
+
+/* =========================================================
+   AREA
+========================================================= */
+
+.home-area-list {
+  margin-top: 5px;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.home-area-icon {
+  display: inline-block;
+  min-width: 2rem;
+}
+
+/* =========================================================
+   REVIEWS
+========================================================= */
+
+.home-reviews-header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.container-review-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(280px, 360px));
+  gap: 26px;
+  justify-content: center;
+  max-width: 1100px;
+  width: 100%;
+}
+
+.home-review {
+  border: 1px solid var(--color-border);
+  padding: 26px;
+  background: var(--color-bg-beige);
+  box-shadow: var(--shadow-grey);
+  display: flex;
+  flex-direction: column;
+}
+
+.home-review-quote {
+  margin-bottom: 25px;
+}
+
+.home-review-stars {
+  color: var(--color-gold);
+  margin-bottom: 5px;
+}
+
+/* =========================================================
+   CTA FINAL
+========================================================= */
+
+.home-cta-final {
+  background-color: #4e6f8c;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.home-cta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-cta-title {
+  font-size: 2.5rem;
+  color: var(--color-bg-main);
+  margin-bottom: 1rem;
+}
+
+.home-cta-text {
+  color: #fff;
+  font-size: 0.9rem;
+  margin-bottom: 3rem;
+  max-width: 60ch;
+}
+
+.ctaFinal__eyebrow {
+  color: #fff;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1024px) {
+  .home-grid3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .home-atmosphere-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home-atmosphere-item-large {
+    height: 260px;
+  }
+
+  .home-services {
+    grid-template-columns: repeat(3, auto);
+    gap: 36px;
+  }
+
+  .container-review-cards {
+    grid-template-columns: repeat(2, minmax(260px, 360px));
+  }
+
+  .home-cta-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .home-center {
+    padding: 18px;
+  }
+
+  .home-grid3 {
+    grid-template-columns: 1fr;
+  }
+
+  .home-atmosphere-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-atmosphere-item {
+    height: 220px;
+  }
+
+  .home-atmosphere-item-large {
+    height: 260px;
+  }
+
+  .home-services {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+  }
+
+  .home-service {
+    max-width: 100%;
+  }
+
+  .container-review-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .home-review {
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+  .home-cta-title {
+    font-size: 1.6rem;
+  }
+
+  .home-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+}

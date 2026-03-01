@@ -1,0 +1,300 @@
+/* =========================================
+   NAVBAR
+========================================= */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background: var(--color-bg-main);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.navbar-container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 14px 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+/* =========================================
+   LOGO
+========================================= */
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+/* Importante: sin line-height:0 el <img> deja un hueco vertical */
+.navbar-logo__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  line-height: 0;
+}
+
+/* El <picture> no añade estilos, pero por si acaso lo dejamos inline-flex */
+.navbar-logo__link picture {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Control real del tamaño del logo */
+.navbar-logo__img {
+  height: 34px; /* desktop */
+  width: auto;
+  display: block;
+  object-fit: contain;
+  max-width: 240px; /* evita que empuje el menú */
+}
+
+/* =========================================
+   LINKS (desktop/tablet)
+========================================= */
+
+.navbar-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+
+  color: rgba(15, 26, 43, 0.65);
+}
+
+.navbar-link:hover {
+  color: var(--color-dark);
+}
+
+.navbar-link--active {
+  color: var(--color-dark);
+  position: relative;
+}
+
+.navbar-link--active::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin-top: 6px;
+  background: rgba(15, 26, 43, 0.45);
+}
+
+/* =========================================
+   RIGHT SIDE
+========================================= */
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar-reserve {
+  text-decoration: none;
+  background: var(--color-primary);
+  color: #fff;
+
+  padding: 10px 14px;
+  border-radius: 8px;
+
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  transition: filter 0.15s ease, transform 0.15s ease;
+}
+
+.navbar-reserve:hover {
+  filter: brightness(1.06);
+}
+
+.navbar-reserve:active {
+  transform: translateY(1px);
+}
+
+.navbar-reserve--active {
+  box-shadow: 0 0 0 2px rgba(15, 26, 43, 0.14) inset;
+}
+
+.navbar-lang {
+  border: 1px solid rgba(15, 26, 43, 0.20);
+  background: transparent;
+
+  padding: 8px 10px;
+  font-size: 0.75rem;
+  border-radius: 8px;
+
+  color: var(--color-dark);
+}
+
+.navbar-burger {
+  display: none;
+
+  border: 1px solid rgba(15, 26, 43, 0.20);
+  background: transparent;
+
+  padding: 8px 12px;
+  border-radius: 8px;
+
+  font-size: 1rem;
+  cursor: pointer;
+  color: var(--color-dark);
+}
+
+/* Focus accesible */
+.navbar-link:focus-visible,
+.navbar-reserve:focus-visible,
+.navbar-lang:focus-visible,
+.navbar-burger:focus-visible,
+.popover-close:focus-visible,
+.popover-links a:focus-visible {
+  outline: 2px solid rgba(63, 95, 125, 0.55);
+  outline-offset: 3px;
+  border-radius: 10px;
+}
+
+/* =========================================
+   OVERLAY + POPOVER (móvil)
+========================================= */
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 999;
+}
+
+.popover {
+  position: fixed;
+  top: 72px;
+  right: 14px;
+
+  width: min(320px, 90vw);
+  max-height: 70vh;
+
+  background: var(--color-bg-main);
+  border: 1px solid var(--color-border);
+
+  border-radius: 14px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+
+  padding: 14px;
+  overflow: auto;
+
+  opacity: 0;
+  transform: translateY(-8px);
+  pointer-events: none;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+
+  z-index: 1000;
+}
+
+.popover--open {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.popover-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 12px;
+}
+
+.popover-title {
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(15, 26, 43, 0.65);
+}
+
+.popover-close {
+  border: 1px solid rgba(15, 26, 43, 0.16);
+  background: transparent;
+
+  border-radius: 10px;
+  padding: 6px 10px;
+  cursor: pointer;
+
+  color: var(--color-dark);
+}
+
+.popover-links {
+  display: grid;
+  gap: 10px;
+}
+
+.popover-links a {
+  text-decoration: none;
+
+  padding: 12px 12px;
+  border: 1px solid rgba(15, 26, 43, 0.10);
+  border-radius: 10px;
+
+  color: rgba(15, 26, 43, 0.80);
+
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.popover-links a.active {
+  border-color: rgba(15, 26, 43, 0.28);
+  color: var(--color-dark);
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (min-width: 701px) {
+  .overlay {
+    display: none;
+  }
+  .popover {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .navbar-links--desktop {
+    display: none;
+  }
+
+  .navbar-burger {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* el logo móvil (LOGOS.column) entra por <picture>, aquí solo ajustamos tamaño */
+  .navbar-logo__img {
+    height: 70px;
+    max-width: none;
+  }
+}

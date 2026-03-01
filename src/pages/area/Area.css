@@ -1,0 +1,295 @@
+/* =========================================================
+   AREA PAGE
+========================================================= */
+
+.areaPage {
+  overflow-x: hidden;
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.areaPage .hero {
+  background-image: var(--hero-bg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 900px) {
+  .areaPage .hero {
+    background-image: var(--hero-bg-mobile);
+    background-position: center;
+  }
+}
+
+/* =========================================================
+   PLACES & BEACHES — LAYOUT
+========================================================= */
+
+.area-container-museos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.area-places-header,
+.area-beaches-header {
+  max-width: 720px;
+}
+
+.area-places-grid,
+.area-beaches-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 48px;
+  align-items: start;
+}
+
+/* =========================================================
+   PLACES & BEACHES — CARD
+========================================================= */
+
+.area-place-card,
+.area-beach-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.area-place-media {
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.area-place-img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+.area-place-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.area-place-title {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.area-place-text {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.area-place-distance {
+  font-size: 0.85em;
+  opacity: 0.6;
+}
+
+/* =========================================================
+   BEACHES — WRAPPER
+========================================================= */
+
+.area-container_playa {
+  display: flex;
+  flex-direction: column;
+}
+
+/* =========================================================
+   BANNER
+========================================================= */
+
+.areaBanner {
+  position: relative;
+  padding: 6rem 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  overflow: hidden;
+  background-color: #111; /* fallback si falla la imagen inline */
+}
+
+.areaBanner__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(67, 65, 65, 0.55);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.areaBanner__content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.area_banner-title {
+  font-size: clamp(2rem, 4vw, 4rem);
+  color: #fff;
+}
+
+/* =========================================================
+   EXPERIENCES — LAYOUT
+========================================================= */
+
+.area-container-natura {
+  display: block;
+}
+
+.area-container-natura .area-title {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.area-experiences {
+  display: grid;
+  grid-template-columns: 440px 1fr;
+  gap: 72px;
+  align-items: start;
+}
+
+.area-experiences-media {
+  display: grid;
+  gap: 32px;
+}
+
+.area-exp-img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+}
+
+/* =========================================================
+   EXPERIENCES — LIST
+========================================================= */
+
+.area-experiences-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.area-exp-item {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 28px;
+  padding: 26px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.area-exp-item:first-child {
+  padding-top: 0;
+}
+
+.area-exp-number {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  opacity: 0.5;
+  margin-top: 6px;
+}
+
+.area-exp-title {
+  margin: 0;
+  font-size: 30px;
+  line-height: 1.15;
+}
+
+.area-exp-text {
+  margin: 10px 0 0;
+  opacity: 0.8;
+  line-height: 1.6;
+}
+
+/* =========================================================
+   TEXT HELPERS
+========================================================= */
+
+.area-text {
+  margin-bottom: 10px;
+}
+
+.area-food-italic {
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* =========================================================
+   RESPONSIVE — TABLET (<= 1100px)
+========================================================= */
+
+@media (max-width: 1100px) {
+  .area-places-grid,
+  .area-beaches-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .area-experiences {
+    grid-template-columns: 1fr;
+    gap: 56px;
+  }
+
+  .area-exp-img {
+    height: 240px;
+  }
+}
+
+/* =========================================================
+   RESPONSIVE — MOBILE (<= 700px)
+========================================================= */
+
+@media (max-width: 700px) {
+  .area-container-museos {
+    gap: 28px;
+  }
+
+  .area-places-grid,
+  .area-beaches-grid {
+    gap: 32px;
+  }
+
+  .area-place-img {
+    height: 220px;
+  }
+
+  .areaBanner {
+    padding: 4.5rem 0;
+  }
+
+  .areaBanner__content {
+    padding: 0 18px;
+  }
+
+  .area-experiences-media {
+    gap: 20px;
+  }
+
+  .area-exp-img {
+    height: 200px;
+  }
+
+  .area-exp-title {
+    font-size: 22px;
+  }
+
+  .area-exp-item {
+    grid-template-columns: 32px 1fr;
+    gap: 18px;
+    padding: 20px 0;
+  }
+}

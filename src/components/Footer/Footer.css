@@ -1,0 +1,239 @@
+/* =========================================
+   FOOTER
+========================================= */
+
+.footer {
+  background: hsl(231, 29%, 22%);
+  color: rgba(255, 255, 255, 0.88);
+  padding: 48px 0 28px;
+  position: relative;
+}
+
+/* franja superior azul */
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 22px;
+  background: var(--color-primary);
+}
+
+.footer__container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  gap: 60px;
+  margin-top: 30px;
+}
+
+/* =========================================
+   BRAND
+========================================= */
+
+.footer__title {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+  color: #ffffff;
+}
+
+.footer__desc {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 340px;
+}
+
+/* =========================================
+   SOCIALS
+========================================= */
+
+.socials {
+  display: flex;
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.socials__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  
+  transition: all 0.25s ease;
+}
+
+.socials__link:hover {
+  background: var(--color-primary);
+  transform: translateY(-2px);
+}
+
+.socials__icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* =========================================
+   COLUMN HEADINGS
+========================================= */
+
+.footer__heading {
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  color: rgba(255, 255, 255, 0.60);
+}
+
+/* =========================================
+   CONTACTO
+========================================= */
+
+.footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.footer__contactLink {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.85rem;
+  transition: color 0.2s ease;
+}
+
+.footer__contactLink:hover {
+  color: #ffffff;
+}
+
+/* =========================================
+   LINKS
+========================================= */
+
+.footer__links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.footer__links a {
+  text-decoration: none;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.85);
+  transition: color 0.2s ease;
+}
+
+.footer__links a:hover {
+  color: #ffffff;
+}
+
+/* =========================================
+   DIVIDER
+========================================= */
+
+.footer__divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.12);
+  margin: 32px 0 18px;
+}
+
+/* =========================================
+   BOTTOM
+========================================= */
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.footer__legal {
+  display: flex;
+  gap: 24px;
+}
+
+.footer__legal a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.55);
+  transition: color 0.2s ease;
+}
+
+.footer__legal a:hover {
+  color: #ffffff;
+}
+
+/* =========================================
+   FIRMA CREADOR WEB
+========================================= */
+
+.footer__creator {
+  margin-top: 26px;
+  text-align: center;
+  opacity: 0.65;
+}
+
+.creator__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: rgba(255,255,255,0.65);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.creator__link:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+.creator__logo {
+  height: 18px;
+  width: auto;
+  opacity: 0.85;
+  transition: opacity 0.25s ease;
+}
+
+.creator__link:hover .creator__logo {
+  opacity: 1;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+  .footer__grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .footer__legal {
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+}

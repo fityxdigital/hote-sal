@@ -1,0 +1,900 @@
+{
+  "nav": {
+    "rooms": "Habitaciones",
+    "restaurant": "Restaurante",
+    "history": "Historia",
+    "area": "Entorno",
+    "contact": "Contacto",
+    "reserve": "Reservar",
+    "services": "Servicios"
+  },
+
+  "navbar": {
+    "ariaMain": "Navegación principal",
+    "brand": "Taverna de la Sal",
+    "langSelectAria": "Cambiar idioma",
+    "lang": {
+      "es": "ES",
+      "en": "EN",
+      "fr": "FR",
+      "ca": "CA"
+    },
+    "burger": {
+      "open": "Abrir menú",
+      "close": "Cerrar menú"
+    },
+    "overlayCloseAria": "Cerrar menú",
+    "mobile": {
+      "title": "Menú",
+      "close": "Cerrar",
+      "aria": "Menú móvil"
+    }
+  },
+
+  "home": {
+    "hero": {
+      "aria": "Portada",
+      "eyebrow": "HOTEL BOUTIQUE · SOLO ADULTOS · L’ESCALA",
+      "title": "Taverna de la Sal",
+      "subtitle": "Seis  habitaciones íntimas a pocos pasos del mar. Calma, historia y desconexión en el corazon de la Costa Brava.",
+      "cta": "COMPROBAR DISPONIBILIDAD"
+    },
+    "story": {
+      "eyebrow": "NUESTRA HISTORIA",
+      "title": "Un edificio del siglo XIX ligado al mar y la sal",
+      "text": "Este edificio centenario, vinculado a la tradición marinera y salinera de L'Escala, ha sido cuidadosamente restaurado para convertirse en un hotel boutique solo adultos y un restaurante mediterráneo que respeta su esencia original.",
+      "link": "DESCUBRIR NUESTRA HISTORIA ",
+      "imageAlt": "Entrada abovedada del hotel"
+    },
+    "refuge": {
+      "eyebrow": "TU REFUGIO EN LA COSTA BRAVA",
+      "title": "Por qué elegir Taverna de la Sal",
+      "cards": [
+        {
+          "title": "Exclusividad total",
+          "text": "Seis habitaciones y un ambiente solo adultos que garantiza tranquilidad y descanso sin interrupciones."
+        },
+        {
+          "title": "Frente al mar y casco antiguo",
+          "text": "Ubicación privilegiada entre el Mediterráneo y las calles empedradas del centro histórico de L'Escala."
+        },
+        {
+          "title": "Hospitalidad cercana",
+          "text": "Dirigido por sus propietarios, que cuidan cada detalle para que tu estancia sea inolvidable."
+        }
+      ]
+    },
+    "atmosphere": {
+      "eyebrow": "ATMÓSFERA",
+      "title": "Luz, detalle y calma",
+      "text": "Desde la luz del mediterráneo hasta los interiores cuidadosamente diseñados, cada espacio invita a desconectar.",
+      "images": [
+        "Detalle decorativo",
+        "Escalera interior",
+        "Terraza con vistas",
+        "Habitación luminosa"
+      ]
+    },
+    "benefits": {
+      "eyebrow": "RESERVA DIRECTA",
+      "title": "Ventajas de reservar con nosotros",
+      "cards": [
+        {
+          "title": "10% descuento restaurante",
+          "text": "Disfruta de nuestra cocina de brasa con un descuento exclusivo para reservas directas."
+        },
+        {
+          "title": "Mejor tarifa garantizada",
+          "text": "Reservando directamente siempre obtendrás el mejor precio disponible."
+        },
+        {
+          "title": "Atención personalizada",
+          "text": "Contacto directo con los propietarios para personalizar tu estancia."
+        }
+      ]
+    },
+    "rooms": {
+      "eyebrow": "Habitaciones premium",
+      "title": "Habitaciones con vistas al Mediterráneo",
+      "text": " Espacios dobles de entre 25 y 30 m², con balcón privado y vistas laterales al mar. Decorados con materiales naturales, luz suave y una paleta de tonos arena y azul que invitan a desconectar.",
+      "features": [
+        "Desayuno buffet mediterráneo incluido cada mañana",
+        "Diseño mediterráneo contemporáneo",
+        "Servicio de limpieza diario y cuidado al detalle",
+        "Ropa de cama de alta calidad"
+      ],
+      "details": "Ver detalles",
+      "cta": "Comprobar disponibilidad",
+      "imageAlt": "Habitación con balcón y vistas al Mediterráneo"
+    },
+    "restaurant": {
+      "eyebrow": "RESTAURANTE",
+      "title": "Brasa, producto y Mediterráneo",
+      "text": "Nuestro restaurante ofrece una cocina honesta basada en carnes y pescados a la brasa, con producto de temporada y una selección de vinos DO Empordà. Un ambiente íntimo junto al mar para disfrutar de la mejor gastronomia del Empordà.",
+      "cta": "Descubrir el restaurante →",
+      "imageAlt": "Mesa en la terraza del restaurante con vistas al mar"
+    },
+    "services": {
+      "eyebrow": "SERVICIOS",
+      "title": "Todo lo que necesitas",
+      "items": [
+        "Desayuno con producto local",
+        "Terraza con vistas al mar",
+        "Limpieza diaria",
+        "Wi-Fi gratuito",
+        "Parking bajo reserva"
+      ],
+      "link": "CONOCER TODOS LOS SERVICIOS →"
+    },
+    "area": {
+      "eyebrow": "ENTORNO",
+      "title": "L’Escala, Costa Brava",
+      "text": "Un pueblo marinero auténtico en la Costa Brava, donde el patrimonio grecoromano de Empúries convive con playas de agua cristalina, calas escondidas y una tradición gastronómica única marcada por las famosas anchoas de L'Escala.",
+      "items": [
+        "Playas a pocos pasos",
+        "Casco antiguo de L’Escala",
+        "Ruinas de Empúries",
+        "Tradición de la anchoa"
+      ],
+      "imageAlt": "Vista aérea de L’Escala en la Costa Brava",
+      "link": "EXPLORAR L’ESCALA →"
+    },
+    "reviews": {
+      "eyebrow": "OPINIONES",
+      "title": "Lo que dicen nuestros huéspedes",
+      "starsAria": "5 de 5 estrellas",
+      "items": [
+        {
+          "quote": "“Personalidad, comodidad y calidez genuina. Habitaciones diseñadas con esmero, limpieza impecable y una terraza en la azotea perfecta para el atardecer. Un desayuno excepcional y un servicio que realmente marca la diferencia.”",
+          "name": "Emanuel P.",
+          "city": "Madrid"
+        },
+        {
+          "quote": "“Una maravilla lo tranquilo y el poco ruido que tiene este hotel. Las habitaciones están cuidadas al máximo, las camas son muy cómodas y todo está super limpio. El desayuno es de muy buena calidad.”",
+          "name": "Cristian V.",
+          "city": "Bilbao"
+        },
+        {
+          "quote": "“Ubicación perfecta justo al lado del puerto. Anfitriones encantadores. Habitaciones con estilo, desayuno excelente y un restaurante con un auténtico ambiente local”",
+          "name": "Anna K.",
+          "city": "Barcelona"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Tu refugio frente al Mediterráneo te espera",
+      "text": "Reserva directamente y vive una experiencia íntima, auténtica e inolvidable en el corazón de L’Escala.",
+      "button": "Comprobar disponibilidad"
+    }
+  },
+
+  "rooms": {
+    "hero": {
+      "title": "Habitaciones boutique en L'Escala",
+      "subtitle": "Espacios luminosos y acogedores diseñados para el descanso real, en un hotel solo adultos junto al mar.",
+      "cta": "Reservar"
+    },
+    "intro": {
+      "title": "Solo para quienes valoran el detalle",
+      "lead": "Habitaciones únicas de entre 25 y 30 m², diseñadas para quienes entienden el descanso como una experiencia de calma, luz y cuidado junto al Mediterráneo.",
+      "list": [
+        "Todas dobles matrimoniales",
+        "Dos de ellas adaptables a triple bajo solicitud",
+        "Con balcón y vistas laterales al mar"
+      ],
+      "quote": "Un refugio exclusivo para parejas que buscan detalle, privacidad y diseño frente al Mediterráneo.",
+      "imageAlt": "Habitación con baño y luz natural"
+    },
+    "features": [
+      {
+        "title": "Confort",
+        "items": [
+          "Superficie entre 25 y 30 m²",
+          "Cama king-size (2,00 × 1,80 m)",
+          "Aire acondicionado y calefacción"
+        ]
+      },
+      {
+        "title": "Baño y cuidado",
+        "items": [
+          "Ducha tipo walk-in",
+          "Amenities de baño incluidos",
+          "Secador de pelo"
+        ]
+      },
+      {
+        "title": "Detalles que marcan la diferencia",
+        "items": [
+          "Hervidor con selección de café y té",
+          "Mini nevera - Plancha vertical",
+          "Caja fuerte "
+        ]
+      },
+      {
+        "title": "Tecnología y conexión",
+        "items": [
+          "TV pantalla plana",
+          "Canales nacionales e internacionales",
+          "Wi-Fi de alta velocidad gratuito"
+        ]
+      }
+    ],
+    "gallery": {
+      "title": "Cada detalle, elegido con intención.",
+      "subtitle": "Un recorrido visual por espacios donde diseño, confort y calma se encuentran.",
+      "imageAlt": "Detalle de habitación del hotel"
+    },
+    "final": {
+      "title": "Pocas habitaciones garantizan un ambiente tranquilo y exclusivo durante toda la temporada.",
+      "button": "RESERVAR HABITACION"
+    },
+    "services": {
+      "text": "Además de tu habitación, podrás disfrutar de nuestra terraza con vista al mar y restaurante a la brasa.",
+      "link": "Descubre nuestros servicios"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿El hotel es solo para adultos?",
+          "a": "Sí. Taverna de la Sal es un hotel solo adultos, para mayores de 14 años, diseñado para ofrecer un ambiente tranquilo y relajado durante toda la estancia."
+        },
+        {
+          "q": "¿El desayuno está incluido en la estancia?",
+          "a": "Sí, el desayuno diario con productos locales está incluido en todas las reservas."
+        },
+        {
+          "q": "¿Hay aparcamiento privado?",
+          "a": "Sí. Ofrecemos parking privado cercano con plazas limitadas. Se requiere reserva previa y tiene coste adicional."
+        },
+        {
+          "q": "¿Cuál es la hora de entrada y salida?",
+          "a": " El check-in está disponible a partir de las 15:00 hasta las 19:00 y el check-out es a las 11:00."
+        },
+        {
+          "q": "¿La terraza rooftop está abierta para todos?",
+          "a": "La terraza es solo para huéspedes del hotel y está reservada para adultos."
+        },
+        {
+          "q": "¿Aceptan mascotas?",
+          "a": "Lamentablemente, no se permiten mascotas en el establecimiento."
+        },
+        {
+          "q": "¿Se puede fumar en las habitaciones?",
+          "a": "No. Todas nuestras habitaciones y espacios interiores son 100 % libres de humo. Si lo deseas, puedes fumar en la terraza."
+        }
+      ]
+    },
+    "bigCta": {
+      "title": "Tu descanso empieza aquí.",
+      "button": "COMPROBAR DISPONIBILIDAD"
+    }
+  },
+  "servicesPage": {
+  "seo": {
+    "title": "Servicios | Taverna de la Sal",
+    "description": "Servicios del hotel: restaurante a la brasa, desayuno con producto local, terraza con vistas al Mediterráneo, rincón de lectura, parking y Wi-Fi."
+  },
+  "hero": {
+    "aria": "Servicios",
+    "title": "Servicios que completan tu experiencia",
+    "subtitle": "Cada detalle ha sido pensado para que tu estancia en Taverna de la Sal sea cómoda, tranquila y sin preocupaciones.",
+    "note": "✓ 10% de descuento para huéspedes del hotel que reservan directamente en nuestra web"
+  },
+  "brasa": {
+    "eyebrow": "DISFRUTA",
+    "title": "Restaurante a la brasa",
+    "text1": "Especialistas en carnes y pescados a la brasa, con producto de temporada y ambiente íntimo en el casco antiguo de L'Escala.",
+    "text2": "Si reservas directamente en nuestra web, disfrutarás de un 10% de descuento en el restaurante durante tu estancia.",
+    "cta": "VER MÁS",
+    "imageAlt": "Restaurante a la brasa"
+  },
+  "breakfast": {
+    "eyebrow": "DESAYUNO BUFFET  MEDITERRÁNEO",
+    "title": "Empieza el día con sabor",
+    "text": "  Cada mañana servimos un desayuno buffet cuidado y elegante, con productos frescos y de proximidad: pan y bollería recién horneada, fruta de temporada, embutidos y quesos locales, acompañado de zumo de naranja natural  y café preparado al momento. Un comienzo del día tranquilo, en un ambiente mediterráneo a pocos pasos del mar.    ",
+    "imageAlt": "Desayuno con producto local"
+  },
+  "terrace": {
+    "title": "Terraza con vistas al Mediterráneo",
+    "text": "Nuestra terraza ofrece vistas a la bahía y al casco antiguo. En verano, cócteles y música en vivo; en invierno, calma y atardeceres inolvidables.",
+    "imageAlt": "Terraza con vistas al mar"
+  },
+  "reading": {
+    "title": "Rincón de lectura",
+    "text": "Un pequeño espacio tranquilo donde relajarse, leer o simplemente detener el tiempo. Disponemos de libros y revistas sobre L'Escala, el mar y la historia local.",
+    "imageAlt": "Rincón de lectura del hotel"
+  },
+  "cards": [
+    {
+      "title": "Confort sin preocupaciones",
+      "text": "Servicio de limpieza diario para garantizar frescura y comodidad. Toallas y amenities adicionales disponibles bajo petición."
+    },
+    {
+      "title": "Parking en el corazón del pueblo",
+      "text": "Plaza de aparcamiento privado cerca al hotel. Plazas limitadas, reserva previa y coste adicional. Un lujo poco habitual en un pueblo costero como L'Escala."
+    },
+    {
+      "title": "Wi-Fi de alta velocidad",
+      "text": "Conexión disponible en todas las habitaciones y zonas comunes para que puedas planificar tu día o compartir tu experiencia."
+    }
+  ],
+  "final": {
+    "title": "Pequeño hotel, atención cercana y servicios pensados para que solo te ocupes de disfrutar.",
+    "cta": "COMPROBAR DISPONIBILIDAD"
+  }
+},
+  
+  
+  "history": {
+    "hero": {
+      "aria": "Historia",
+      "title": "Dos mares, una misma forma de cuidar",
+      "subtitle": "Una historia que une Nueva Zelanda y el Mediterráneo a través de la hospitalidad genuina.",
+      "cta": "Quiero vivir la experiencia"
+    },
+    "block1": {
+      "imageAlt": "Los anfitriones",
+      "kicker": "Taverna de la Sal no nació como un proyecto empresarial.",
+      "p1": "Nació como una manera de vivir. Matthew llegó desde Nueva Zelanda con una idea muy clara: la hospitalidad no es un servicio, es una forma de estar presente. Durante años ha trabajado en el mundo de la hostelería y aprendió que los detalles silenciosos son los que realmente se recuerdan.",
+      "p2": "Mariona creció en L’Escala. Conoce el ritmo del mar, el carácter del pueblo y esa forma mediterránea de cuidar que mezcla cercanía y calma.",
+      "quoteLines": [
+        "Dos mares distintos.",
+        "Dos culturas.",
+        "Una misma manera de entender el cuidado genuino."
+      ]
+    },
+    "block2": {
+      "imageAlt": "Fachada del edificio",
+      "title": "Un edificio que ya tenía historia",
+      "p1": "El edificio que hoy es Taverna de la Sal nació en el siglo XIX. Durante décadas estuvo ligado al mar y a la sal. Primero fue refugio para pescadores, después lugar de bienvenida a los primeros viajeros que descubrieron la Costa Brava.",
+      "p2": "Con el tiempo, el proyecto creció. Decidimos restaurar el edificio respetando su esencia y transformarlo en un hotel boutique solo adultos.",
+      "p3": "No queríamos crear un hotel más, sino un espacio íntimo donde cada estancia se sintiera personal.",
+      "p4": "Hoy, Taverna de la Sal es el resultado de una unión: tradición y mirada contemporánea, raíces y mundo, mar y hospitalidad."
+    },
+    "philosophy": {
+      "title": "Nuestra filosofía",
+      "p1": "Creemos que el verdadero lujo está en lo humano: estar presentes, llamar a cada huésped por su nombre y cuidar cada detalle para que puedas desconectar de verdad.",
+      "p2": "\"Para nosotros, la hospitalidad no es un servicio, es una forma de amar lo que hacemos.\" Mariona y Matthew"
+    },
+    "final": {
+      "textLine1": "Si decides alojarte con nosotros, no solo reservas una habitación.",
+      "textLine2": "Formas parte de una historia que empezó mucho antes de tu llegada.",
+      "cta": "Vivir la experiencia"
+    }
+  },
+
+  "area": {
+    "hero": {
+      "aria": "Entorno y actividades en L'Escala",
+      "title": "Explora L'Escala y la Costa Brava",
+      "subtitle": "Naturaleza, historia y mar a pocos pasos del hotel."
+    },
+    "intro": {
+      "imageAlt": "Detalle de la tradición marinera en L'Escala",
+      "title": "Historia, cultura y gastronomía frente al Mediterráneo",
+      "lead": "Un destino donde el mar no solo se contempla, también se recuerda.",
+      "p1": "L'Escala vive ligada al Mediterráneo y al comercio de la sal.",
+      "p2": "A pocos minutos se encuentran las Ruinas de Empúries, donde convivieron ciudades griega y romana junto al mar.",
+      "p3": "Tradición marinera, patrimonio y cocina local completan la experiencia."
+    },
+    "places": {
+      "header": {
+        "title": "Arqueología y patrimonio",
+        "subtitle": "Vestigios de civilizaciones milenarias al alcance de la mano."
+      },
+      "cards": [
+        {
+          "imageAlt": "Ruinas de Empúries",
+          "title": "Ruinas de Empúries",
+          "distance": "2 km",
+          "text": "Templos, mosaicos y restos arqueológicos con vistas al Mediterráneo. Un viaje a la Grecia y Roma antiguas a pocos minutos del hotel.",
+          "url": "https://www.macempuries.cat/",
+          "linkText": "Visitar Empúries"
+        },
+        {
+          "imageAlt": "Casco antiguo de L'Escala",
+          "title": "Casco Antiguo de L'Escala",
+          "text": "Calles empedradas, tiendas locales y esencia marinera auténtica."
+        },
+        {
+          "imageAlt": "Alfolí de la Sal",
+          "title": "Alfolí de la Sal",
+          "text": "Antiguo almacén del siglo XVIII que narra la historia comercial del pueblo."
+        },
+        {
+          "imageAlt": "Museo de la Anchoa y la Sal",
+          "title": "Museo de la Anchoa y la Sal",
+          "text": "Descubre el legado pesquero que dio fama internacional a L'Escala."
+        }
+      ]
+    },
+    "banner": {
+      "aria": "El Mediterráneo cerca del hotel",
+      "title": "El Mediterráneo, a solo unos pasos"
+    },
+    "beaches": {
+      "intro": "Desde el hotel puedes salir caminando y estar frente al mar en segundos.",
+      "items": [
+        {
+          "title": "Platja de les Barques",
+          "distance": "20 m",
+          "text": "Pequeña playa frente al hotel. Ideal para un baño temprano."
+        },
+        {
+          "title": "Port d'en Perris",
+          "text": "Cala rocosa en el casco antiguo, aguas claras y entorno íntimo."
+        },
+        {
+          "title": "Playas de Empúries",
+          "text": "Arena fina junto a las ruinas grecorromanas."
+        },
+        {
+          "title": "Cala Montgó",
+          "text": "Bahía protegida de aguas turquesa rodeada de naturaleza."
+        }
+      ],
+      "url": "https://www.visitlescala.com/es/playas",
+      "linkText": "Descubre todas las playas de L'Escala"
+    },
+    "nature": {
+      "imageAlt": "Paisajes del Empordà",
+      "title": "Paisajes abiertos, aire puro y silencio",
+      "p1": "El Empordà es un territorio de contrastes: mar, acantilados, humedales y montañas suaves que invitan a explorar sin prisa.",
+      "items": [
+        {
+          "title": "Parque Natural del Montgrí, Islas Medes y Baix Ter",
+          "text": "Senderos con vistas al mar, calas escondidas y reservas marinas protegidas."
+        },
+        {
+          "title": "Aiguamolls de l'Empordà",
+          "text": "Humedales ideales para paseos tranquilos y observación de aves."
+        },
+        {
+          "title": "Paseo Marítimo y Arco del Portitxol",
+          "text": "Sigue el Camí de Ronda por acantilados y pasarelas de madera hasta uno de los arcos naturales más fotogénicos de la Costa Brava.",
+          "url": "https://costabrava.org/es/que-hacer/naturaleza/parques-naturales/",
+          "linkText": "Explora los parques naturales"
+        }
+      ],
+      "note": "Perfecto para huéspedes que buscan combinar descanso con naturaleza activa."
+    },
+    "experiences": {
+      "title": "Vivir el destino, no solo visitarlo",
+      "images": ["Kayak en la costa", "Barcos en el puerto"],
+      "items": [
+        { "title": "Actividades acuáticas", "text": "Buceo, snorkel, kayak y paddle surf en aguas cristalinas." },
+        { "title": "Paseos en barco", "text": "Excursiones privadas o en grupo para descubrir la costa desde el mar." },
+        { "title": "Rutas ciclistas", "text": "Itinerarios costeros y rurales con paisajes mediterráneos." },
+        { "title": "Senderismo", "text": "Recorre el macizo del Montgrí o el Camí de Ronda." },
+        { "title": "Cultura y escapadas", "text": "Teatro-Museo Dalí (Figueres), bodegas DO Empordà y tradición local." }
+      ]
+    },
+    "food": {
+      "title": "Sabores del Empordà",
+      "p1": "L'Escala es reconocida por sus anchoas artesanales, elaboradas con métodos tradicionales que forman parte de la identidad mediterránea.",
+      "p2": "La cocina catalana combina mar y montaña, recetas del territorio y vinos con denominación de origen Empordà.",
+      "p3": "En Taverna de la Sal, esta tradición se disfruta en nuestra mesa, con producto local y sabores auténticos que completan tu estancia.",
+      "italic": "Descubre el Empordà a través del mar, la historia y también del sabor.",
+      "button": "CONOCER SABORES",
+      "imageAlt": "Producto local del Empordà"
+    }
+  },
+
+  "contact": {
+    "hero": {
+      "aria": "Contacto Taverna de la Sal",
+      "title": "Contacta con Taverna de la Sal",
+     
+      "subtitle": "Estamos aquí para ayudarte a planificar una estancia tranquila, cuidada y sin preocupaciones en L'Escala."
+    },
+    "cards": {
+      "aria": "Datos de contacto",
+      "address": {
+        "title": "Dirección",
+        "line1": "Carrer Santa Màxima, 7",
+        "line2": "17130 L'Escala, Girona, Spain",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Carrer%20Santa%20M%C3%A0xima%207%2017130%20L%27Escala",
+        "mapsCta": "VER EN GOOGLE MAPS"
+      },
+      "email": {
+        "title": "Email",
+        "value": "info@tavernadelasal.com",
+        "mailto": "mailto:info@tavernadelasal.com",
+        "hint": "Respondemos en menos de 24h."
+      },
+      "phone": {
+        "title": "Teléfono",
+        "value": "+34 972 776 278",
+        "tel": "tel:+34972776278",
+        "hint": "Atención personalizada."
+      }
+    },
+    "form": {
+      "aria": "Formulario de contacto",
+      "title": "Envíanos un mensaje",
+      "subtitle": "Para reservas, peticiones especiales o cualquier consulta, estaremos encantados de ayudarte.",
+      "fields": {
+        "name": {
+          "label": "SU NOMBRE *",
+          "placeholder": "Nombre completo"
+        },
+        "email": {
+          "label": "TU CORREO ELECTRÓNICO *",
+          "placeholder": "email@ejemplo.com"
+        },
+        "subject": {
+          "label": "ASUNTO *",
+          "placeholder": "Motivo de contacto"
+        },
+        "message": {
+          "label": "SU MENSAJE",
+          "optional": "(opcional)",
+          "placeholder": "Cuéntanos cómo podemos ayudarte..."
+        }
+      },
+      "submit": "ENVIAR MENSAJE"
+    },
+    "map": {
+      "aria": "Ubicación",
+      "title": "Dónde estamos",
+      "subtitle": "En pleno casco antiguo de L'Escala, a pocos pasos del mar.",
+      "iframeTitle": "Mapa Taverna de la Sal",
+      "iframeSrc": "https://www.google.com/maps?q=Carrer%20Santa%20M%C3%A0xima%207%2017130%20L%27Escala&output=embed"
+    },
+    "cta": {
+      "aria": "Comprobar disponibilidad",
+      "title": {
+        "line1": "Pequeño hotel, atención cercana",
+        "line2": "y una ubicación privilegiada a",
+        "line3": "pocos pasos del Mediterráneo."
+      },
+      "button": "COMPROBAR DISPONIBILIDAD"
+    }
+  },
+  
+  "booking": {
+    "seo": {
+      "title": "Reservas | Taverna de la Sal",
+      "description": "Reserva tu estancia en Taverna de la Sal. Elige fechas y confirmamos disponibilidad."
+    },
+    "hero": {
+      "aria": "Reservas",
+      "eyebrow": "RESERVAS",
+      "title": "Reserva tu habitación",
+      "lead": "Selecciona tus fechas y preferencias. Confirmamos disponibilidad al instante."
+    },
+    "availability": {
+      "aria": "Disponibilidad",
+      "title": "Disponibilidad",
+      "prev": "Mes anterior",
+      "next": "Mes siguiente",
+      "legend": {
+        "free": "Disponible",
+        "blocked": "No disponible",
+        "selected": "Seleccionado"
+      },
+      "blocked": []
+    },
+    "form": {
+      "title": "Detalles de la estancia",
+      "checkin": {
+        "label": "Fecha de llegada",
+        "placeholder": "Selecciona en el calendario"
+      },
+      "checkout": {
+        "label": "Fecha de salida",
+        "placeholder": "Selecciona en el calendario"
+      },
+      "adults": {
+        "label": "Adultos"
+      },
+      "parking": {
+        "title": "Añadir plaza de parking",
+        "meta": "+15€ / noche · Plaza garantizada"
+      },
+      "name": {
+        "label": "Nombre completo",
+        "placeholder": "Tu nombre"
+      },
+      "phone": {
+        "label": "Teléfono",
+        "placeholder": "Tu número de teléfono"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "correo@email.com"
+      },
+      "message": {
+        "label": "Mensaje (opcional)",
+        "placeholder": "Alguna petición especial..."
+      },
+      "submit": "Comprobar disponibilidad",
+      "hint": "Selecciona llegada y salida en el calendario."
+    },
+    "summary": {
+      "title": "Tu estancia",
+      "items": [
+        "Cancelación flexible",
+        "Mejor precio garantizado",
+        "Pago seguro",
+        "Atención personalizada"
+      ],
+      "phoneNote": "¿Prefieres reservar por teléfono?",
+      "phone": "+34 972 776 278"
+    }
+  }
+  ,
+  "legal": {
+    "cookies": {
+      "title": "Política de Cookies",
+      "intro": "En cumplimiento de lo dispuesto en el artículo 22.2 de la Ley 34/2002 (LSSI-CE), este documento informa sobre el uso de cookies en el sitio web [DOMINIO].",
+      "s1": {
+        "title": "1. ¿Qué son las cookies?",
+        "p1": "Las cookies son pequeños archivos de texto que se almacenan en el navegador del usuario cuando visita un sitio web. Sirven para facilitar la navegación, recordar preferencias y, en algunos casos, obtener información estadística."
+      },
+      "s2": {
+        "title": "2. Tipos de cookies utilizadas",
+        "tech": {
+          "title": "Cookies técnicas (necesarias)",
+          "p1": "Son imprescindibles para el funcionamiento correcto del sitio web, como la gestión de la navegación o el acceso a áreas seguras. No requieren consentimiento previo."
+        },
+        "analytics": {
+          "title": "Cookies de análisis",
+          "p1": "Permiten medir el tráfico y analizar el uso del sitio para mejorar la experiencia y los servicios ofrecidos. Requieren consentimiento."
+        },
+        "third": {
+          "title": "Cookies de terceros",
+          "p1": "El sitio puede integrar servicios externos (por ejemplo, mapas o herramientas de analítica) que pueden instalar cookies propias. El tratamiento se rige por la política del proveedor correspondiente."
+        }
+      },
+      "s3": {
+        "title": "3. Base legal",
+        "p1": "La base legal para el uso de cookies no necesarias es el consentimiento del usuario, otorgado mediante el banner o panel de configuración. El consentimiento puede retirarse en cualquier momento."
+      },
+      "s4": {
+        "title": "4. Cómo configurar o desactivar las cookies",
+        "p1": "El usuario puede permitir, bloquear o eliminar las cookies mediante la configuración del navegador:",
+        "list": ["Google Chrome", "Mozilla Firefox", "Safari", "Microsoft Edge"],
+        "p2": "La desactivación de determinadas cookies puede afectar al correcto funcionamiento del sitio web."
+      },
+      "s5": {
+        "title": "5. Identificación del responsable",
+        "p1": "Responsable del tratamiento: Can Kiwi Sl · NIF/ B55243653 · Dirección: Santa Maxima, 7· Email: info@tavernadelasal.com"
+      },
+      "s6": {
+        "title": "6. Más información",
+        "p1": "Para más información sobre el tratamiento de datos personales, consulte nuestra Política de Privacidad."
+      },
+      "updated": "Última actualización: 2026"
+    }
+  }
+  ,
+  "legalNotice": {
+    "seo": {
+      "title": "Aviso Legal | Taverna de la Sal",
+      "description": "Información legal y condiciones de uso del sitio web."
+    },
+    "title": "Aviso Legal",
+    "intro": "En cumplimiento del artículo 10 de la Ley 34/2002, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa de los siguientes datos:",
+    "sections": {
+      "identification": {
+        "title": "1. Datos identificativos",
+        "content": "Titular: Can Kiwi SL\nCIF/NIF: B55243653\nDomicilio: Santa Maxima, 7\nEmail:info@tavernadelasal.com\nTeléfono: 972776278"
+      },
+      "object": {
+        "title": "2. Objeto",
+        "content": "El presente sitio web tiene como finalidad ofrecer información sobre los servicios del establecimiento, facilitar el contacto con los usuarios y permitir la gestión de reservas."
+      },
+      "conditions": {
+        "title": "3. Condiciones de uso",
+        "content": "El acceso y uso de esta web atribuye la condición de usuario e implica la aceptación plena de las presentes condiciones. El usuario se compromete a utilizar el sitio de forma lícita."
+      },
+      "intellectual": {
+        "title": "4. Propiedad intelectual e industrial",
+        "content": "Todos los contenidos del sitio web son propiedad del titular o cuentan con licencia de uso. Queda prohibida su reproducción sin autorización expresa."
+      },
+      "liability": {
+        "title": "5. Responsabilidad",
+        "content": "El titular no se responsabiliza del mal uso de los contenidos ni de posibles errores técnicos o interrupciones del servicio."
+      },
+      "externalLinks": {
+        "title": "6. Enlaces externos",
+        "content": "Esta web puede contener enlaces a sitios de terceros. El titular no asume responsabilidad alguna sobre sus contenidos."
+      },
+      "dataProtection": {
+        "title": "7. Protección de datos",
+        "content": "El tratamiento de los datos personales se rige por lo dispuesto en la Política de Privacidad del sitio web."
+      },
+      "law": {
+        "title": "8. Legislación aplicable",
+        "content": "La relación entre el usuario y el titular se regirá por la normativa vigente en España. Para la resolución de conflictos, las partes se someten a los juzgados y tribunales del domicilio del titular."
+      }
+    },
+    "updated": "Última actualización: [FECHA]"
+  }
+  ,
+  
+  "privacy": {
+    "seo": {
+      "title": "Política de Privacidad | Taverna de la Sal",
+      "description": "Información sobre el tratamiento de datos personales conforme al RGPD."
+    },
+    "title": "Política de Privacidad",
+    "intro": "En cumplimiento del Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD), informamos sobre el tratamiento de sus datos personales.",
+    "sections": {
+      "controller": {
+        "title": "1. Responsable del tratamiento",
+        "content": "Titular: Can Kiwi SL\nCIF/NIF: B55243653\nDomicilio: Santa Maxima, 7\nEmail: info@tavernadelasal.com\nTeléfono: 972776278"
+      },
+      "purpose": {
+        "title": "2. Finalidad del tratamiento",
+        "intro": "Los datos personales se utilizan para:",
+        "items": [
+          "Gestionar reservas y estancias.",
+          "Responder consultas enviadas mediante el formulario de contacto.",
+          "Enviar comunicaciones relacionadas con la reserva.",
+          "Cumplir obligaciones legales."
+        ]
+      },
+      "legalBasis": {
+        "title": "3. Base legal",
+        "intro": "La base jurídica del tratamiento es:",
+        "items": [
+          "La ejecución de un contrato (reserva hotelera).",
+          "El consentimiento del usuario.",
+          "El cumplimiento de obligaciones legales."
+        ]
+      },
+      "retention": {
+        "title": "4. Conservación de los datos",
+        "content": "Los datos se conservarán durante el tiempo necesario para cumplir con la finalidad para la que fueron recabados y atender posibles responsabilidades legales."
+      },
+      "recipients": {
+        "title": "5. Destinatarios",
+        "content": "No se cederán datos a terceros salvo obligación legal o cuando sea necesario para la prestación del servicio."
+      },
+      "rights": {
+        "title": "6. Derechos del usuario",
+        "intro": "El usuario tiene derecho a:",
+        "items": [
+          "Acceder a sus datos personales.",
+          "Rectificar datos inexactos.",
+          "Solicitar su supresión.",
+          "Limitar u oponerse al tratamiento.",
+          "Solicitar la portabilidad de sus datos."
+        ],
+        "contact": "Puede ejercer sus derechos enviando una solicitud al correo electrónico info@tavernadelasal.com."
+      },
+      "security": {
+        "title": "7. Seguridad",
+        "content": "Se adoptan las medidas técnicas y organizativas necesarias para garantizar la seguridad y confidencialidad de los datos personales."
+      },
+      "changes": {
+        "title": "8. Cambios en la política",
+        "content": "Nos reservamos el derecho de modificar la presente política para adaptarla a novedades legislativas o jurisprudenciales."
+      }
+    },
+    "updated": "Última actualización: [FECHA]"
+  },
+  "cookiesBanner": {
+  "title": "Cookies",
+  "description": "Usamos cookies necesarias para que la web funcione y, con tu permiso, cookies de análisis y marketing. Puedes aceptar, rechazar o configurar.",
+  "links": {
+    "cookies": "Política de Cookies",
+    "privacy": "Privacidad"
+  },
+  "buttons": {
+    "accept": "Aceptar",
+    "reject": "Rechazar",
+    "configure": "Configurar",
+    "rejectAll": "Rechazar todo",
+    "save": "Guardar",
+    "back": "Volver"
+  },
+  "categories": {
+    "necessary": {
+      "title": "Necesarias",
+      "hint": "Siempre activas para el funcionamiento básico."
+    },
+    "analytics": {
+      "title": "Analítica",
+      "hint": "Medir tráfico y uso (ej. Analytics)."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "hint": "Publicidad y remarketing."
+    }
+  }
+},
+
+
+
+
+  
+  "restaurante": {
+    "seo": {
+      "title": "Restaurante | Taverna de la Sal",
+      "description": "Carnes y pescados a la brasa con vistas al mar. Cocina honesta, producto de temporada y vinos del Empordà."
+    },
+    "whatsapp": {
+      "text": "Hola, quiero reservar una mesa en el restaurante. ¿Me confirmas disponibilidad? Gracias."
+    },
+    "hero": {
+      "aria": "Restaurante",
+      "title": " Brasa con vistas al mar ",
+      "subtitle": "Especialistas en carnes y pescados a la brasa, elaborados con producto fresco y de temporada en un entorno íntimo del casco antiguo de L’Escala. ",
+      "cta": "Reservar mesa",
+      "note": "10% de descuento para huéspedes que reserven directamente en nuestra web."
+    },
+    "propuesta": {
+      "eyebrow": "LA PROPUESTA",
+      "title": "La brasa como protagonista",
+      "lead": "Trabajamos carnes seleccionadas y pescados frescos con respeto por el producto y técnica a la brasa. Cocina honesta, sabores definidos y recetas mediterráneas elaboradas sin artificios.",
+      "p2": "Producto de proximidad, vinos del Empordà y una carta pensada para disfrutar sin prisas.",
+      "imageAlt": "Pescado a la brasa"
+    },
+    "entorno": {
+      "eyebrow": "EL ENTORNO",
+      "title": "Un restaurante a pocos pasos del Mediterráneo",
+      "p1": "Comedor interior acogedor y una terraza pensada para disfrutar sin prisas. Un lugar para comer y cenar con calma, tanto si eres huésped como visitante.",
+      "p2": "En verano, música en vivo y cócteles al atardecer.",
+      "p3": "En invierno, chimenea y sobremesas largas.",
+      "p4": "Un espacio pensado para cenar con calma, tanto si eres huésped como visitante.",
+      "imageAlt": "Terraza con vistas al mar"
+    },
+    "experiencia": {
+      "aria": "La experiencia",
+      "eyebrow": "LA EXPERIENCIA",
+      "title": "Más que un restaurante, una experiencia cercana",
+      "lead": "Se trata de disfrutar el fuego, el mar y el tiempo.",
+      "p2": "El restaurante está dirigido y atendido por su propietario, creando un ambiente auténtico donde muchos de nuestros comensales regresan no solo por la cocina, sino por el trato."
+    },
+    "ventajas": {
+      "eyebrow": "PARA HUÉSPEDES",
+      "title": "Ventajas para nuestros huéspedes",
+      "lead": "Si te alojas en Taverna de la Sal y reservas directamente:",
+      "items": [
+        "10% de descuento en el restaurante",
+        "Atención prioritaria en tu reserva",
+        "Recomendaciones personalizadas según temporada"
+      ],
+      "cta": "Reservar estancia con ventajas"
+    },
+    "carta": {
+      "eyebrow": "LA CARTA",
+      "title": "Explora nuestra carta",
+      "lead": "Descubre carnes y pescados a la brasa, propuestas de temporada y una cuidada selección de vinos locales.",
+      "linkText": "Ver menú",
+      "ctaAria": "Abrir menú en una nueva pestaña",
+      "url": "#"
+    },
+    "horarios": {
+      "eyebrow": "RESERVAS",
+      "title": "Horarios",
+      "week": {
+        "title": "Lunes a viernes",
+        "time": "Cena: 18:30 — 22:30"
+      },
+      "weekend": {
+        "title": "Fines de semana y festivos",
+        "lunch": "Almuerzo: 12:30 — 15:30",
+        "dinner": "Cena: 18:30 — 22:30"
+      },
+      "note": "El aforo es limitado, especialmente en temporada alta.",
+      "cta": "Reservar mesa"
+    }
+  }
+
+
+
+
+
+
+  
+
+
+
+
+
+}

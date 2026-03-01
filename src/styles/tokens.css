@@ -1,0 +1,38 @@
+:root {
+  --font-heading: "AnticDidone", serif;
+  --font-body: "Inter", sans-serif;
+  --font-title: "Play", sans-serif;
+
+  --color-bg-main: #fbfaf8;
+  --color-bg-beige: #e9e3da;
+  --color-primary: #3f5f7d;
+  --color-gold: #b68d2c;
+  --color-dark: rgb(58, 79, 129);
+  --color-text: #404652;
+  --color-light-text: #6b7280;
+
+  --color-surface: #ffffff;
+  --color-border: rgba(15, 26, 43, 0.12);
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 72px;
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --shadow-sm: 0 8px 18px rgba(15, 26, 43, 0.10);
+  --shadow-md: 0 16px 40px rgba(15, 26, 43, 0.14);
+  --shadow-grey: 0 8px 18px rgb(167, 164, 164);
+
+  --border-black: 0.3px solid rgb(215, 214, 214);
+
+  --container: 1200px;
+  --container-narrow: 820px;
+}

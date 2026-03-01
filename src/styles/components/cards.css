@@ -1,0 +1,117 @@
+/* HEADER */
+.home-cards-header {
+  text-align: center;
+  padding: 0 16px; /* ✅ aire en móvil */
+}
+
+/* CONTENEDOR SECCIÓN */
+.g-container-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 80px 16px 140px; /* ✅ lateral en móvil */
+  gap: 32px; /* ✅ separa header y grid */
+}
+
+/* ✅ WRAPPER GRID PARA LAS CARDS (te faltaba esto) */
+.g-cards {
+  width: 100%;
+  max-width: 1100px; /* ajusta si quieres */
+  display: grid;
+  grid-template-columns: 1fr; /* móvil */
+  gap: 18px;
+  align-items: stretch;
+}
+
+/* Card */
+.g-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 34px 28px;
+  text-align: center;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-height: 220px; /* ✅ un poco menos por defecto */
+}
+
+/* Icono */
+.g-card-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(191, 151, 74, 0.7);
+  color: rgba(191, 151, 74, 1);
+  margin-bottom: 18px;
+  font-size: 18px;
+}
+
+.g-card-title {
+  margin: 0 0 12px 0;
+  font-size: 20px;
+  color: var(--color-brand, #1f3a66);
+}
+
+.g-card-text {
+  margin: 0;
+  max-width: 32ch;
+  line-height: 1.6;
+}
+
+/* REVIEWS */
+.container-review {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* =========================
+   BREAKPOINTS
+========================= */
+
+/* >= 600px: 2 columnas */
+@media (min-width: 600px) {
+  .g-container-card {
+    padding: 90px 24px 150px;
+  }
+
+  .g-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+  }
+}
+
+/* >= 980px: 3 columnas */
+@media (min-width: 980px) {
+  .g-container-card {
+    padding: 100px 24px 160px;
+  }
+
+  .g-cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 26px;
+  }
+
+  .g-card {
+    min-height: 260px; /* ✅ en desktop sí queda “premium” */
+  }
+}
+
+/* móvil muy pequeño */
+@media (max-width: 360px) {
+  .g-card {
+    padding: 26px 18px;
+    min-height: auto; /* ✅ evita tarjetas gigantes */
+  }
+
+  .g-card-title {
+    font-size: 18px;
+  }
+}

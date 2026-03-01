@@ -1,0 +1,24 @@
+.notFound__wrap{
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 6rem 1.25rem;
+  text-align: center;
+}
+.notFound__kicker{
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  opacity: .7;
+}
+.notFound__title{
+  margin: .75rem 0;
+}
+.notFound__text{
+  opacity: .85;
+  margin-bottom: 1.5rem;
+}
+.notFound__actions{
+  display: flex;
+  gap: .75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
