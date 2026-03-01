@@ -9,14 +9,14 @@ import heroRooms from "../../assets/images/habitaciones/cami.png";
 import introRooms from "../../assets/images/habitaciones/camabaño.png";
 import { BOOKING_URL } from "../../config/links";
 
-import img1 from "../../assets/images/laras/cama.png";
-import img2 from "../../assets/images/laras/amenitisss.png";
-import img3 from "../../assets/images/laras/sofa.png";
+import img1 from "../../assets/images/habitaciones/img1.jpg";
+import img2 from "../../assets/images/habitaciones/img2.jpg";
+import img3 from "../../assets/images/habitaciones/img3.jpg";
 import img4 from "../../assets/images/laras/escritorio.png";
 import img5 from "../../assets/images/habitaciones/espejo.png";
-import img6 from "../../assets/images/laras/frey.png";
-import img7 from "../../assets/images/laras/baño.png";
-import img8 from "../../assets/images/laras/bombilla.png";
+import img6 from "../../assets/images/habitaciones/img6.jpg";
+import img7 from "../../assets/images/habitaciones/img7.jpg";
+import img8 from "../../assets/images/habitaciones/img8.jpg";
 
 import FaqItem from "../../components/Faqitem/FaqItem";
 import SEO from "../../components/seo/SEO";

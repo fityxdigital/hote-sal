@@ -1,7 +1,6 @@
 /* =========================================================
    ROOMS — HERO
 ========================================================= */
-
 @media (max-width: 900px) {
   .roomHero {
     background-position: 50% 25%;
@@ -11,7 +10,6 @@
 /* =========================================================
    INTRO
 ========================================================= */
-
 .rooms-list {
   padding-left: 18px;
   list-style: disc;
@@ -37,56 +35,35 @@
 /* =========================================================
    FEATURES
 ========================================================= */
-
 .rooms-container-features {
   max-width: 1200px;
   min-height: 400px;
   padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+/* Título arriba centrado */
+.rooms-container-features > .g-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+/* Grid 4 tarjetas */
 .rooms-grid4 {
-  margin-top: 28px;
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 22px;
-}
-
-.g-card.rooms-feature {
-  padding: 22px 18px;
-  border-radius: 16px;
-  min-height: 220px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
-}
-
-.g-card.rooms-feature .g-card-title {
-  font-size: 1.1rem;
-  line-height: 1.25;
-  margin-bottom: 20px;
-  min-height: 45px;
-}
-
-.rooms-feature-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.rooms-text.g-text {
-  font-size: 0.85rem;
-  line-height: 1.55;
+  align-items: stretch;
 }
 
 /* =========================================================
    GALLERY
 ========================================================= */
-
 .rooms-gallery-container {
   display: flex;
   flex-direction: column;
@@ -129,7 +106,6 @@
 /* =========================================================
    CTA
 ========================================================= */
-
 .rooms-final,
 .rooms-services,
 .rooms-big-cta {
@@ -144,6 +120,7 @@
    RESPONSIVE
 ========================================================= */
 
+/* <= 1100px: 3 columnas en features y galería */
 @media (max-width: 1100px) {
   .rooms-grid4 {
     grid-template-columns: repeat(3, 1fr);
@@ -159,10 +136,15 @@
   }
 }
 
+/* <= 820px: 2 columnas */
 @media (max-width: 820px) {
   .rooms-container-features {
     padding: 18px;
     min-height: auto;
+  }
+
+  .rooms-container-features > .g-title {
+    margin-bottom: 32px;
   }
 
   .rooms-grid4 {
@@ -194,6 +176,7 @@
   }
 }
 
+/* <= 520px: 1 columna */
 @media (max-width: 520px) {
   .rooms-grid4 {
     grid-template-columns: 1fr;

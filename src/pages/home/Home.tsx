@@ -6,11 +6,11 @@ import type { CSSProperties } from "react";
 
 import SEO from "../../components/seo/SEO";
 
-import storyImg from "../../assets/images/heroimg/entradapescado.png";
-import pezdecoration from "../../assets/images/heroimg/entrada.png";
-import escaleraimg from "../../assets/images/heroimg/cenital.png";
-import camaimg from "../../assets/images/heroimg/camazul.png";
-import azoteaimg from "../../assets/images/heroimg/terraza.png";
+import storyImg from "../../assets/images/home/entradapescado.png";
+import pezdecoration from "../../assets/images/home/aseonsorsillas.jpg";
+import escaleraimg from "../../assets/images/home/cenital.png";
+import camaimg from "../../assets/images/home/camazul.png";
+import azoteaimg from "../../assets/images/home/terraza.png";
 import restauranteimg from "../../assets/images/restaurante/chorizos.png";
 import salaimg from "../../assets/images/espacios/IMG-20240419-WA0062.jpg";
 import vistas from "../../assets/images/habitaciones/atardecer.png";
